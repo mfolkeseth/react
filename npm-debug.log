@@ -1,0 +1,374 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose readDependencies loading dependencies from /Users/martinf/Documents/github/react/package.json
+5 warn package.json myreacttutorial@1.0.0 No description
+6 warn package.json myreacttutorial@1.0.0 No README data
+7 verbose install where, deps [ '/Users/martinf/Documents/github/react',
+7 verbose install   [ 'bootstrap-sass',
+7 verbose install     'history',
+7 verbose install     'jquery',
+7 verbose install     'react',
+7 verbose install     'react-dom',
+7 verbose install     'react-router',
+7 verbose install     'autoprefixer',
+7 verbose install     'autoprefixer-loader',
+7 verbose install     'babel-core',
+7 verbose install     'babel-loader',
+7 verbose install     'babel-preset-es2015',
+7 verbose install     'babel-preset-react',
+7 verbose install     'css-loader',
+7 verbose install     'file-loader',
+7 verbose install     'http-server',
+7 verbose install     'imports-loader',
+7 verbose install     'jsx-loader',
+7 verbose install     'postcss-loader',
+7 verbose install     'resolve-url-loader',
+7 verbose install     'style-loader',
+7 verbose install     'url-loader',
+7 verbose install     'webpack',
+7 verbose install     'webpack-dev-server' ] ]
+8 verbose install where, peers [ '/Users/martinf/Documents/github/react', [] ]
+9 verbose installManyTop reading for lifecycle /Users/martinf/Documents/github/react/package.json
+10 info preinstall myreacttutorial@1.0.0
+11 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/autoprefixer/package.json
+12 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/autoprefixer-loader/package.json
+13 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/babel-core/package.json
+14 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/babel-loader/package.json
+15 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/babel-preset-es2015/package.json
+16 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/babel-preset-react/package.json
+17 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/bootstrap/package.json
+18 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/bootstrap-loader/package.json
+19 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/bootstrap-sass/package.json
+20 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/css-loader/package.json
+21 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/file-loader/package.json
+22 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/gulp/package.json
+23 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/history/package.json
+24 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/http-server/package.json
+25 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/imports-loader/package.json
+26 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/jquery/package.json
+27 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/jsx-loader/package.json
+28 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/node-sass/package.json
+29 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/normalize.css/package.json
+30 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/postcss-loader/package.json
+31 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/postcss-scss/package.json
+32 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/react/package.json
+33 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/react-dom/package.json
+34 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/react-router/package.json
+35 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/resolve-url-loader/package.json
+36 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/sass-loader/package.json
+37 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/style-loader/package.json
+38 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/url-loader/package.json
+39 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/webpack/package.json
+40 verbose installManyTop reading scoped package data from /Users/martinf/Documents/github/react/node_modules/webpack-dev-server/package.json
+41 info package.json jsx-loader@0.13.2 license should be a valid SPDX license expression
+42 verbose readDependencies loading dependencies from /Users/martinf/Documents/github/react/package.json
+43 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/autoprefixer/package.json
+44 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/autoprefixer-loader/package.json
+45 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/babel-core/package.json
+46 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/babel-loader/package.json
+47 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/babel-preset-es2015/package.json
+48 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/babel-preset-react/package.json
+49 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/bootstrap/package.json
+50 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/bootstrap-loader/package.json
+51 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/bootstrap-sass/package.json
+52 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/css-loader/package.json
+53 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/file-loader/package.json
+54 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/gulp/package.json
+55 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/history/package.json
+56 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/http-server/package.json
+57 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/imports-loader/package.json
+58 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/jquery/package.json
+59 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/jsx-loader/package.json
+60 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/node-sass/package.json
+61 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/normalize.css/package.json
+62 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/postcss-loader/package.json
+63 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/postcss-scss/package.json
+64 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/react/package.json
+65 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/react-dom/package.json
+66 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/react-router/package.json
+67 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/resolve-url-loader/package.json
+68 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/sass-loader/package.json
+69 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/style-loader/package.json
+70 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/url-loader/package.json
+71 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/webpack/package.json
+72 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/webpack-dev-server/package.json
+73 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/.bin/gulp/package.json
+74 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/.bin/hs/package.json
+75 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/.bin/http-server/package.json
+76 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/.bin/node-sass/package.json
+77 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/.bin/webpack/package.json
+78 verbose targetResolver reading package data from /Users/martinf/Documents/github/react/node_modules/.bin/webpack-dev-server/package.json
+79 verbose already installed skipping react-router@^1.0.3 /Users/martinf/Documents/github/react
+80 verbose already installed skipping autoprefixer@^6.2.3 /Users/martinf/Documents/github/react
+81 verbose already installed skipping autoprefixer-loader@^3.1.0 /Users/martinf/Documents/github/react
+82 verbose already installed skipping babel-core@^6.4.0 /Users/martinf/Documents/github/react
+83 verbose already installed skipping babel-loader@^6.2.1 /Users/martinf/Documents/github/react
+84 verbose already installed skipping babel-preset-es2015@^6.3.13 /Users/martinf/Documents/github/react
+85 verbose already installed skipping babel-preset-react@^6.3.13 /Users/martinf/Documents/github/react
+86 verbose already installed skipping css-loader@^0.23.1 /Users/martinf/Documents/github/react
+87 silly cache add args [ 'file-loader@github:node_modules/file-loader', null ]
+88 verbose cache add spec file-loader@github:node_modules/file-loader
+89 verbose already installed skipping http-server@^0.8.5 /Users/martinf/Documents/github/react
+90 silly cache add args [ 'imports-loader@github:node_modules/imports-loader', null ]
+91 verbose cache add spec imports-loader@github:node_modules/imports-loader
+92 verbose already installed skipping jsx-loader@^0.13.2 /Users/martinf/Documents/github/react
+93 verbose already installed skipping postcss-loader@^0.8.0 /Users/martinf/Documents/github/react
+94 silly cache add args [ 'resolve-url-loader@github:node_modules/resolve-url-loader',
+94 silly cache add   null ]
+95 verbose cache add spec resolve-url-loader@github:node_modules/resolve-url-loader
+96 verbose already installed skipping style-loader@^0.13.0 /Users/martinf/Documents/github/react
+97 silly cache add args [ 'url-loader@github:node_modules/url-loader', null ]
+98 verbose cache add spec url-loader@github:node_modules/url-loader
+99 verbose already installed skipping webpack@^1.12.10 /Users/martinf/Documents/github/react
+100 verbose already installed skipping webpack-dev-server@^1.14.0 /Users/martinf/Documents/github/react
+101 verbose already installed skipping bootstrap-sass@^3.3.6 /Users/martinf/Documents/github/react
+102 verbose already installed skipping history@^1.17.0 /Users/martinf/Documents/github/react
+103 verbose already installed skipping jquery@^2.2.0 /Users/martinf/Documents/github/react
+104 verbose already installed skipping react@^0.14.6 /Users/martinf/Documents/github/react
+105 silly cache add parsed spec Result {
+105 silly cache add   raw: 'file-loader@github:node_modules/file-loader',
+105 silly cache add   scope: null,
+105 silly cache add   name: 'file-loader',
+105 silly cache add   rawSpec: 'github:node_modules/file-loader',
+105 silly cache add   spec: 'github:node_modules/file-loader',
+105 silly cache add   type: 'hosted',
+105 silly cache add   hosted:
+105 silly cache add    { type: 'github',
+105 silly cache add      ssh: 'git@github.com:node_modules/file-loader.git',
+105 silly cache add      sshUrl: 'git+ssh://git@github.com/node_modules/file-loader.git',
+105 silly cache add      httpsUrl: 'git+https://github.com/node_modules/file-loader.git',
+105 silly cache add      gitUrl: 'git://github.com/node_modules/file-loader.git',
+105 silly cache add      shortcut: 'github:node_modules/file-loader',
+105 silly cache add      directUrl: 'https://raw.githubusercontent.com/node_modules/file-loader/master/package.json' } }
+106 verbose addRemoteGit caching github:node_modules/file-loader
+107 verbose addRemoteGit node_modules/file-loader is a repository hosted by github
+108 silly tryGitProto attempting to clone git://github.com/node_modules/file-loader.git
+109 silly tryClone cloning node_modules/file-loader via git://github.com/node_modules/file-loader.git
+110 verbose tryClone git-github-com-node-modules-file-loader-git-d11fb9c7 not in flight; caching
+111 silly cache add parsed spec Result {
+111 silly cache add   raw: 'imports-loader@github:node_modules/imports-loader',
+111 silly cache add   scope: null,
+111 silly cache add   name: 'imports-loader',
+111 silly cache add   rawSpec: 'github:node_modules/imports-loader',
+111 silly cache add   spec: 'github:node_modules/imports-loader',
+111 silly cache add   type: 'hosted',
+111 silly cache add   hosted:
+111 silly cache add    { type: 'github',
+111 silly cache add      ssh: 'git@github.com:node_modules/imports-loader.git',
+111 silly cache add      sshUrl: 'git+ssh://git@github.com/node_modules/imports-loader.git',
+111 silly cache add      httpsUrl: 'git+https://github.com/node_modules/imports-loader.git',
+111 silly cache add      gitUrl: 'git://github.com/node_modules/imports-loader.git',
+111 silly cache add      shortcut: 'github:node_modules/imports-loader',
+111 silly cache add      directUrl: 'https://raw.githubusercontent.com/node_modules/imports-loader/master/package.json' } }
+112 verbose addRemoteGit caching github:node_modules/imports-loader
+113 verbose addRemoteGit node_modules/imports-loader is a repository hosted by github
+114 silly tryGitProto attempting to clone git://github.com/node_modules/imports-loader.git
+115 silly tryClone cloning node_modules/imports-loader via git://github.com/node_modules/imports-loader.git
+116 verbose tryClone git-github-com-node-modules-imports-loader-git-7a31e9a8 not in flight; caching
+117 silly cache add parsed spec Result {
+117 silly cache add   raw: 'resolve-url-loader@github:node_modules/resolve-url-loader',
+117 silly cache add   scope: null,
+117 silly cache add   name: 'resolve-url-loader',
+117 silly cache add   rawSpec: 'github:node_modules/resolve-url-loader',
+117 silly cache add   spec: 'github:node_modules/resolve-url-loader',
+117 silly cache add   type: 'hosted',
+117 silly cache add   hosted:
+117 silly cache add    { type: 'github',
+117 silly cache add      ssh: 'git@github.com:node_modules/resolve-url-loader.git',
+117 silly cache add      sshUrl: 'git+ssh://git@github.com/node_modules/resolve-url-loader.git',
+117 silly cache add      httpsUrl: 'git+https://github.com/node_modules/resolve-url-loader.git',
+117 silly cache add      gitUrl: 'git://github.com/node_modules/resolve-url-loader.git',
+117 silly cache add      shortcut: 'github:node_modules/resolve-url-loader',
+117 silly cache add      directUrl: 'https://raw.githubusercontent.com/node_modules/resolve-url-loader/master/package.json' } }
+118 verbose addRemoteGit caching github:node_modules/resolve-url-loader
+119 verbose addRemoteGit node_modules/resolve-url-loader is a repository hosted by github
+120 silly tryGitProto attempting to clone git://github.com/node_modules/resolve-url-loader.git
+121 silly tryClone cloning node_modules/resolve-url-loader via git://github.com/node_modules/resolve-url-loader.git
+122 verbose tryClone git-github-com-node-modules-resolve-url-loader-git-9e1eeea5 not in flight; caching
+123 silly cache add parsed spec Result {
+123 silly cache add   raw: 'url-loader@github:node_modules/url-loader',
+123 silly cache add   scope: null,
+123 silly cache add   name: 'url-loader',
+123 silly cache add   rawSpec: 'github:node_modules/url-loader',
+123 silly cache add   spec: 'github:node_modules/url-loader',
+123 silly cache add   type: 'hosted',
+123 silly cache add   hosted:
+123 silly cache add    { type: 'github',
+123 silly cache add      ssh: 'git@github.com:node_modules/url-loader.git',
+123 silly cache add      sshUrl: 'git+ssh://git@github.com/node_modules/url-loader.git',
+123 silly cache add      httpsUrl: 'git+https://github.com/node_modules/url-loader.git',
+123 silly cache add      gitUrl: 'git://github.com/node_modules/url-loader.git',
+123 silly cache add      shortcut: 'github:node_modules/url-loader',
+123 silly cache add      directUrl: 'https://raw.githubusercontent.com/node_modules/url-loader/master/package.json' } }
+124 verbose addRemoteGit caching github:node_modules/url-loader
+125 verbose addRemoteGit node_modules/url-loader is a repository hosted by github
+126 silly tryGitProto attempting to clone git://github.com/node_modules/url-loader.git
+127 silly tryClone cloning node_modules/url-loader via git://github.com/node_modules/url-loader.git
+128 verbose tryClone git-github-com-node-modules-url-loader-git-5bc48cd6 not in flight; caching
+129 verbose already installed skipping react-dom@^0.14.6 /Users/martinf/Documents/github/react
+130 info git [ 'clone',
+130 info git   '--template=/Users/martinf/.npm/_git-remotes/_templates',
+130 info git   '--mirror',
+130 info git   'git://github.com/node_modules/file-loader.git',
+130 info git   '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-file-loader-git-d11fb9c7' ]
+131 info git [ 'clone',
+131 info git   '--template=/Users/martinf/.npm/_git-remotes/_templates',
+131 info git   '--mirror',
+131 info git   'git://github.com/node_modules/resolve-url-loader.git',
+131 info git   '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-resolve-url-loader-git-9e1eeea5' ]
+132 info git [ 'clone',
+132 info git   '--template=/Users/martinf/.npm/_git-remotes/_templates',
+132 info git   '--mirror',
+132 info git   'git://github.com/node_modules/imports-loader.git',
+132 info git   '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-imports-loader-git-7a31e9a8' ]
+133 info git [ 'clone',
+133 info git   '--template=/Users/martinf/.npm/_git-remotes/_templates',
+133 info git   '--mirror',
+133 info git   'git://github.com/node_modules/url-loader.git',
+133 info git   '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-5bc48cd6' ]
+134 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git://github.com/node_modules/imports-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-imports-loader-git-7a31e9a8: Cloning into bare repository '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-imports-loader-git-7a31e9a8'...
+134 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git://github.com/node_modules/imports-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-imports-loader-git-7a31e9a8: fatal: remote error:
+134 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git://github.com/node_modules/imports-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-imports-loader-git-7a31e9a8:   Repository not found.
+135 silly tryHTTPS attempting to clone git+https://github.com/node_modules/imports-loader.git
+136 silly tryClone cloning node_modules/imports-loader via git+https://github.com/node_modules/imports-loader.git
+137 verbose tryClone https-github-com-node-modules-imports-loader-git-774f9e53 not in flight; caching
+138 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git://github.com/node_modules/resolve-url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-resolve-url-loader-git-9e1eeea5: Cloning into bare repository '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-resolve-url-loader-git-9e1eeea5'...
+138 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git://github.com/node_modules/resolve-url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-resolve-url-loader-git-9e1eeea5: fatal: remote error:
+138 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git://github.com/node_modules/resolve-url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-resolve-url-loader-git-9e1eeea5:   Repository not found.
+139 silly tryHTTPS attempting to clone git+https://github.com/node_modules/resolve-url-loader.git
+140 silly tryClone cloning node_modules/resolve-url-loader via git+https://github.com/node_modules/resolve-url-loader.git
+141 verbose tryClone https-github-com-node-modules-resolve-url-loader-git-e7d4e2af not in flight; caching
+142 info git [ 'clone',
+142 info git   '--template=/Users/martinf/.npm/_git-remotes/_templates',
+142 info git   '--mirror',
+142 info git   'https://github.com/node_modules/imports-loader.git',
+142 info git   '/Users/martinf/.npm/_git-remotes/https-github-com-node-modules-imports-loader-git-774f9e53' ]
+143 info git [ 'clone',
+143 info git   '--template=/Users/martinf/.npm/_git-remotes/_templates',
+143 info git   '--mirror',
+143 info git   'https://github.com/node_modules/resolve-url-loader.git',
+143 info git   '/Users/martinf/.npm/_git-remotes/https-github-com-node-modules-resolve-url-loader-git-e7d4e2af' ]
+144 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git://github.com/node_modules/url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-5bc48cd6: Cloning into bare repository '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-5bc48cd6'...
+144 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git://github.com/node_modules/url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-5bc48cd6: fatal: remote error:
+144 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git://github.com/node_modules/url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-5bc48cd6:   Repository not found.
+145 silly tryHTTPS attempting to clone git+https://github.com/node_modules/url-loader.git
+146 silly tryClone cloning node_modules/url-loader via git+https://github.com/node_modules/url-loader.git
+147 verbose tryClone https-github-com-node-modules-url-loader-git-e2011d6a not in flight; caching
+148 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git://github.com/node_modules/file-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-file-loader-git-d11fb9c7: Cloning into bare repository '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-file-loader-git-d11fb9c7'...
+148 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git://github.com/node_modules/file-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-file-loader-git-d11fb9c7: fatal: remote error:
+148 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git://github.com/node_modules/file-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-file-loader-git-d11fb9c7:   Repository not found.
+149 silly tryHTTPS attempting to clone git+https://github.com/node_modules/file-loader.git
+150 silly tryClone cloning node_modules/file-loader via git+https://github.com/node_modules/file-loader.git
+151 verbose tryClone https-github-com-node-modules-file-loader-git-7d8249fc not in flight; caching
+152 info git [ 'clone',
+152 info git   '--template=/Users/martinf/.npm/_git-remotes/_templates',
+152 info git   '--mirror',
+152 info git   'https://github.com/node_modules/url-loader.git',
+152 info git   '/Users/martinf/.npm/_git-remotes/https-github-com-node-modules-url-loader-git-e2011d6a' ]
+153 info git [ 'clone',
+153 info git   '--template=/Users/martinf/.npm/_git-remotes/_templates',
+153 info git   '--mirror',
+153 info git   'https://github.com/node_modules/file-loader.git',
+153 info git   '/Users/martinf/.npm/_git-remotes/https-github-com-node-modules-file-loader-git-7d8249fc' ]
+154 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror https://github.com/node_modules/resolve-url-loader.git /Users/martinf/.npm/_git-remotes/https-github-com-node-modules-resolve-url-loader-git-e7d4e2af: Cloning into bare repository '/Users/martinf/.npm/_git-remotes/https-github-com-node-modules-resolve-url-loader-git-e7d4e2af'...
+154 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror https://github.com/node_modules/resolve-url-loader.git /Users/martinf/.npm/_git-remotes/https-github-com-node-modules-resolve-url-loader-git-e7d4e2af: remote: Repository not found.
+154 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror https://github.com/node_modules/resolve-url-loader.git /Users/martinf/.npm/_git-remotes/https-github-com-node-modules-resolve-url-loader-git-e7d4e2af: fatal: repository 'https://github.com/node_modules/resolve-url-loader.git/' not found
+155 silly trySSH attempting to clone git@github.com:node_modules/resolve-url-loader.git
+156 silly tryClone cloning node_modules/resolve-url-loader via git@github.com:node_modules/resolve-url-loader.git
+157 verbose tryClone git-github-com-node-modules-resolve-url-loader-git-9eceef02 not in flight; caching
+158 info git [ 'clone',
+158 info git   '--template=/Users/martinf/.npm/_git-remotes/_templates',
+158 info git   '--mirror',
+158 info git   'git@github.com:node_modules/resolve-url-loader.git',
+158 info git   '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-resolve-url-loader-git-9eceef02' ]
+159 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror https://github.com/node_modules/url-loader.git /Users/martinf/.npm/_git-remotes/https-github-com-node-modules-url-loader-git-e2011d6a: Cloning into bare repository '/Users/martinf/.npm/_git-remotes/https-github-com-node-modules-url-loader-git-e2011d6a'...
+159 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror https://github.com/node_modules/url-loader.git /Users/martinf/.npm/_git-remotes/https-github-com-node-modules-url-loader-git-e2011d6a: remote: Repository not found.
+159 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror https://github.com/node_modules/url-loader.git /Users/martinf/.npm/_git-remotes/https-github-com-node-modules-url-loader-git-e2011d6a: fatal: repository 'https://github.com/node_modules/url-loader.git/' not found
+160 silly trySSH attempting to clone git@github.com:node_modules/url-loader.git
+161 silly tryClone cloning node_modules/url-loader via git@github.com:node_modules/url-loader.git
+162 verbose tryClone git-github-com-node-modules-url-loader-git-ae63b7f4 not in flight; caching
+163 info git [ 'clone',
+163 info git   '--template=/Users/martinf/.npm/_git-remotes/_templates',
+163 info git   '--mirror',
+163 info git   'git@github.com:node_modules/url-loader.git',
+163 info git   '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-ae63b7f4' ]
+164 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror https://github.com/node_modules/imports-loader.git /Users/martinf/.npm/_git-remotes/https-github-com-node-modules-imports-loader-git-774f9e53: Cloning into bare repository '/Users/martinf/.npm/_git-remotes/https-github-com-node-modules-imports-loader-git-774f9e53'...
+164 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror https://github.com/node_modules/imports-loader.git /Users/martinf/.npm/_git-remotes/https-github-com-node-modules-imports-loader-git-774f9e53: remote: Repository not found.
+164 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror https://github.com/node_modules/imports-loader.git /Users/martinf/.npm/_git-remotes/https-github-com-node-modules-imports-loader-git-774f9e53: fatal: repository 'https://github.com/node_modules/imports-loader.git/' not found
+165 silly trySSH attempting to clone git@github.com:node_modules/imports-loader.git
+166 silly tryClone cloning node_modules/imports-loader via git@github.com:node_modules/imports-loader.git
+167 verbose tryClone git-github-com-node-modules-imports-loader-git-efa1738e not in flight; caching
+168 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror https://github.com/node_modules/file-loader.git /Users/martinf/.npm/_git-remotes/https-github-com-node-modules-file-loader-git-7d8249fc: Cloning into bare repository '/Users/martinf/.npm/_git-remotes/https-github-com-node-modules-file-loader-git-7d8249fc'...
+168 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror https://github.com/node_modules/file-loader.git /Users/martinf/.npm/_git-remotes/https-github-com-node-modules-file-loader-git-7d8249fc: remote: Repository not found.
+168 verbose git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror https://github.com/node_modules/file-loader.git /Users/martinf/.npm/_git-remotes/https-github-com-node-modules-file-loader-git-7d8249fc: fatal: repository 'https://github.com/node_modules/file-loader.git/' not found
+169 silly trySSH attempting to clone git@github.com:node_modules/file-loader.git
+170 silly tryClone cloning node_modules/file-loader via git@github.com:node_modules/file-loader.git
+171 verbose tryClone git-github-com-node-modules-file-loader-git-709c4b75 not in flight; caching
+172 info git [ 'clone',
+172 info git   '--template=/Users/martinf/.npm/_git-remotes/_templates',
+172 info git   '--mirror',
+172 info git   'git@github.com:node_modules/imports-loader.git',
+172 info git   '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-imports-loader-git-efa1738e' ]
+173 info git [ 'clone',
+173 info git   '--template=/Users/martinf/.npm/_git-remotes/_templates',
+173 info git   '--mirror',
+173 info git   'git@github.com:node_modules/file-loader.git',
+173 info git   '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-file-loader-git-709c4b75' ]
+174 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-ae63b7f4: Cloning into bare repository '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-ae63b7f4'...
+174 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-ae63b7f4: Host key verification failed.
+174 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-ae63b7f4: fatal: Could not read from remote repository.
+174 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-ae63b7f4:
+174 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-ae63b7f4: Please make sure you have the correct access rights
+174 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-ae63b7f4: and the repository exists.
+175 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/resolve-url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-resolve-url-loader-git-9eceef02: Cloning into bare repository '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-resolve-url-loader-git-9eceef02'...
+175 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/resolve-url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-resolve-url-loader-git-9eceef02: Host key verification failed.
+175 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/resolve-url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-resolve-url-loader-git-9eceef02: fatal: Could not read from remote repository.
+175 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/resolve-url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-resolve-url-loader-git-9eceef02:
+175 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/resolve-url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-resolve-url-loader-git-9eceef02: Please make sure you have the correct access rights
+175 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/resolve-url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-resolve-url-loader-git-9eceef02: and the repository exists.
+176 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/imports-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-imports-loader-git-efa1738e: Cloning into bare repository '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-imports-loader-git-efa1738e'...
+176 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/imports-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-imports-loader-git-efa1738e: Host key verification failed.
+176 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/imports-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-imports-loader-git-efa1738e: fatal: Could not read from remote repository.
+176 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/imports-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-imports-loader-git-efa1738e:
+176 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/imports-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-imports-loader-git-efa1738e: Please make sure you have the correct access rights
+176 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/imports-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-imports-loader-git-efa1738e: and the repository exists.
+177 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/file-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-file-loader-git-709c4b75: Cloning into bare repository '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-file-loader-git-709c4b75'...
+177 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/file-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-file-loader-git-709c4b75: Host key verification failed.
+177 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/file-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-file-loader-git-709c4b75: fatal: Could not read from remote repository.
+177 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/file-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-file-loader-git-709c4b75:
+177 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/file-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-file-loader-git-709c4b75: Please make sure you have the correct access rights
+177 error git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/file-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-file-loader-git-709c4b75: and the repository exists.
+178 verbose stack Error: Command failed: git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-ae63b7f4
+178 verbose stack Cloning into bare repository '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-ae63b7f4'...
+178 verbose stack Host key verification failed.
+178 verbose stack fatal: Could not read from remote repository.
+178 verbose stack
+178 verbose stack Please make sure you have the correct access rights
+178 verbose stack and the repository exists.
+178 verbose stack
+178 verbose stack     at ChildProcess.exithandler (child_process.js:203:12)
+178 verbose stack     at emitTwo (events.js:87:13)
+178 verbose stack     at ChildProcess.emit (events.js:172:7)
+178 verbose stack     at maybeClose (internal/child_process.js:818:16)
+178 verbose stack     at Socket.<anonymous> (internal/child_process.js:319:11)
+178 verbose stack     at emitOne (events.js:77:13)
+178 verbose stack     at Socket.emit (events.js:169:7)
+178 verbose stack     at Pipe._onclose (net.js:469:12)
+179 verbose cwd /Users/martinf/Documents/github/react
+180 error Darwin 15.2.0
+181 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+182 error node v4.2.1
+183 error npm  v2.14.7
+184 error code 128
+185 error Command failed: git clone --template=/Users/martinf/.npm/_git-remotes/_templates --mirror git@github.com:node_modules/url-loader.git /Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-ae63b7f4
+185 error Cloning into bare repository '/Users/martinf/.npm/_git-remotes/git-github-com-node-modules-url-loader-git-ae63b7f4'...
+185 error Host key verification failed.
+185 error fatal: Could not read from remote repository.
+185 error
+185 error Please make sure you have the correct access rights
+185 error and the repository exists.
+186 error If you need help, you may report this error at:
+186 error     <https://github.com/npm/npm/issues>
+187 verbose exit [ 1, true ]

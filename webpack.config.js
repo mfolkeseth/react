@@ -1,8 +1,9 @@
+var path = require('path');
 var webpack = require('webpack');
 var autoprefixer = require('autoprefixer');
 
 module.exports = {
-    entry: './js/main.js',
+    entry: ['./js/main.jsx'],
     output: {
         filename: 'bundle.js',
         publicPath: 'http://localhost:8090/assets'
@@ -17,11 +18,22 @@ module.exports = {
                     presets: ['es2015', 'react']
                 }
             },
+            // {
+            //     test:   /\.css$/,
+            //     loader: "style-loader!css-loader!postcss-loader"
+            // }
             {
-                test:   /\.css$/,
-                loader: "style-loader!css-loader!postcss-loader"
-            }
+                test: /\.scss$/,
+                loaders: ["style", "css", "sass"]
+            },
+            { test: /\.(woff2?|svg)$/, loader: 'url?limit=10000' },
+            { test: /\.(ttf|eot)$/, loader: 'file' },
+            { test: /bootstrap-sass\/assets\/javascripts\//, loader: 'imports?jQuery=jquery' }
         ]
     },
-    postcss: [ autoprefixer({ browsers: ['last 2 versions'] }) ]
+    sassLoader: {
+        includePaths: [path.resolve(__dirname, "./scss")]
+    }
+    //,
+    //postcss: [ autoprefixer({ browsers: ['last 2 versions'] }) ]
 }

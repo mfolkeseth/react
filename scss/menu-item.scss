@@ -1,0 +1,29 @@
+@import 'variables';
+
+.menu-item {
+	color: $theme-blue;
+	border: 1px solid $theme-blue;
+	margin-bottom: 20px;
+	padding: 15px;
+	text-align: center;
+	width: 100%;
+	background: transparent;
+
+	&:hover {
+		.title {
+			text-decoration: underline;
+		}
+	}
+
+	.glyphicon {
+		display: block;
+		font-size: 50px;
+		margin-bottom: 20px;
+	}
+
+	.title {
+		font-weight: 700;
+		margin: 0;
+	}
+}
+
